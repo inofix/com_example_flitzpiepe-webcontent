@@ -2,7 +2,7 @@
 
 Simple repository for liferay webcontent structures and templates.
 
-* Later we will want to transfere this to a custom template..
+* Later we will want to transfer this to a custom template..
 
 
 ## ToDo ##
