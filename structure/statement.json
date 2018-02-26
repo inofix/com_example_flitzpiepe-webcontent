@@ -1,0 +1,916 @@
+{
+    "availableLanguageIds": [
+        "en_US",
+        "de_DE"
+    ],
+    "defaultLanguageId": "en_US",
+    "fields": [
+        {
+            "label": {
+                "en_US": "Statement",
+                "de_DE": "Aussage"
+            },
+            "predefinedValue": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "style": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "dataType": "string",
+            "indexType": "text",
+            "localizable": true,
+            "name": "Statement",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "textarea"
+        },
+        {
+            "label": {
+                "en_US": "Validity",
+                "de_DE": "Gültigkeit"
+            },
+            "predefinedValue": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "style": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Separatorhj21",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator"
+        },
+        {
+            "label": {
+                "en_US": "Country",
+                "de_DE": "Land"
+            },
+            "predefinedValue": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "style": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Country",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "en_US": "Region",
+                "de_DE": "Region"
+            },
+            "predefinedValue": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "style": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Region",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "en_US": "Commune",
+                "de_DE": "Gemeinde"
+            },
+            "predefinedValue": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "style": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Commune",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "en_US": "Start Date",
+                "de_DE": "Start Datum"
+            },
+            "predefinedValue": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "style": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "dataType": "date",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "StartDate",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-date"
+        },
+        {
+            "label": {
+                "en_US": "End Date",
+                "de_DE": "End Datum"
+            },
+            "predefinedValue": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "style": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "dataType": "date",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "EndDate",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-date"
+        },
+        {
+            "label": {
+                "en_US": "Annual",
+                "de_DE": "Jährlich"
+            },
+            "predefinedValue": {
+                "en_US": false,
+                "de_DE": "false"
+            },
+            "style": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "dataType": "boolean",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Annual",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "checkbox"
+        },
+        {
+            "label": {
+                "en_US": "Extra Points",
+                "de_DE": "Extrapunkte"
+            },
+            "predefinedValue": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "style": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "en_US": "",
+                "de_DE": "Dieses Angebot ist zum Zeitpunkt der letzten Änderung dieser Stellungsnahme gefühlt um diese Anzahl Punkte besser als vergleichbare Angebote."
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Separatorax10",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator"
+        },
+        {
+            "label": {
+                "en_US": "Landscape",
+                "de_DE": "Landschaft"
+            },
+            "options": [
+                {
+                    "value": "0",
+                    "label": {
+                        "en_US": "0",
+                        "de_DE": "0"
+                    }
+                },
+                {
+                    "value": "1",
+                    "label": {
+                        "en_US": "1",
+                        "de_DE": "1"
+                    }
+                },
+                {
+                    "value": "2",
+                    "label": {
+                        "en_US": "2",
+                        "de_DE": "2"
+                    }
+                },
+                {
+                    "value": "3",
+                    "label": {
+                        "en_US": "3",
+                        "de_DE": "3"
+                    }
+                },
+                {
+                    "value": "4",
+                    "label": {
+                        "en_US": "4",
+                        "de_DE": "4"
+                    }
+                },
+                {
+                    "value": "5",
+                    "label": {
+                        "en_US": "5",
+                        "de_DE": "5"
+                    }
+                },
+                {
+                    "value": "6",
+                    "label": {
+                        "en_US": "6",
+                        "de_DE": "6"
+                    }
+                },
+                {
+                    "value": "7",
+                    "label": {
+                        "en_US": "7",
+                        "de_DE": "7"
+                    }
+                },
+                {
+                    "value": "8",
+                    "label": {
+                        "en_US": "8",
+                        "de_DE": "8"
+                    }
+                },
+                {
+                    "value": "9",
+                    "label": {
+                        "en_US": "9",
+                        "de_DE": "9"
+                    }
+                },
+                {
+                    "value": "10",
+                    "label": {
+                        "en_US": "10",
+                        "de_DE": "10"
+                    }
+                }
+            ],
+            "predefinedValue": {
+                "en_US": [
+                    "0"
+                ],
+                "de_DE": [
+                    "0"
+                ]
+            },
+            "style": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "en_US": "",
+                "de_DE": "Extrapunkte: Dieses Angebot ist zum Zeitpunkt der letzten Änderung dieser Stellungsnahme gefühlt um diese Anzahl Punkte besser als vergleichbare Angebote. Z.B.: Dieses Produkt schont Landschaft und Boden."
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Landscape",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "radio"
+        },
+        {
+            "label": {
+                "en_US": "Regional",
+                "de_DE": "Regional"
+            },
+            "options": [
+                {
+                    "value": "0",
+                    "label": {
+                        "en_US": "0",
+                        "de_DE": "0"
+                    }
+                },
+                {
+                    "value": "1",
+                    "label": {
+                        "en_US": "1",
+                        "de_DE": "1"
+                    }
+                },
+                {
+                    "value": "2",
+                    "label": {
+                        "en_US": "2",
+                        "de_DE": "2"
+                    }
+                },
+                {
+                    "value": "3",
+                    "label": {
+                        "en_US": "3",
+                        "de_DE": "3"
+                    }
+                },
+                {
+                    "value": "4",
+                    "label": {
+                        "en_US": "4",
+                        "de_DE": "4"
+                    }
+                },
+                {
+                    "value": "5",
+                    "label": {
+                        "en_US": "5",
+                        "de_DE": "5"
+                    }
+                },
+                {
+                    "value": "6",
+                    "label": {
+                        "en_US": "6",
+                        "de_DE": "6"
+                    }
+                },
+                {
+                    "value": "7",
+                    "label": {
+                        "en_US": "7",
+                        "de_DE": "7"
+                    }
+                },
+                {
+                    "value": "8",
+                    "label": {
+                        "en_US": "8",
+                        "de_DE": "8"
+                    }
+                },
+                {
+                    "value": "9",
+                    "label": {
+                        "en_US": "9",
+                        "de_DE": "9"
+                    }
+                },
+                {
+                    "value": "10",
+                    "label": {
+                        "en_US": "10",
+                        "de_DE": "10"
+                    }
+                }
+            ],
+            "predefinedValue": {
+                "en_US": [
+                    "0"
+                ],
+                "de_DE": [
+                    "0"
+                ]
+            },
+            "style": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "en_US": "",
+                "de_DE": "Extrapunkte: Dieses Angebot ist zum Zeitpunkt der letzten Änderung dieser Stellungsnahme gefühlt um diese Anzahl Punkte besser als vergleichbare Angebote. Z.B.: Dieses Produkt stammt aus der Umgebung (Angabe abhaengig vom Betrachter..)."
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Regional",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "radio"
+        },
+        {
+            "label": {
+                "en_US": "Traditional",
+                "de_DE": "Traditionell"
+            },
+            "options": [
+                {
+                    "value": "0",
+                    "label": {
+                        "en_US": "0",
+                        "de_DE": "0"
+                    }
+                },
+                {
+                    "value": "1",
+                    "label": {
+                        "en_US": "1",
+                        "de_DE": "1"
+                    }
+                },
+                {
+                    "value": "2",
+                    "label": {
+                        "en_US": "2",
+                        "de_DE": "2"
+                    }
+                },
+                {
+                    "value": "3",
+                    "label": {
+                        "en_US": "3",
+                        "de_DE": "3"
+                    }
+                },
+                {
+                    "value": "4",
+                    "label": {
+                        "en_US": "4",
+                        "de_DE": "4"
+                    }
+                },
+                {
+                    "value": "5",
+                    "label": {
+                        "en_US": "5",
+                        "de_DE": "5"
+                    }
+                },
+                {
+                    "value": "6",
+                    "label": {
+                        "en_US": "6",
+                        "de_DE": "6"
+                    }
+                },
+                {
+                    "value": "7",
+                    "label": {
+                        "en_US": "7",
+                        "de_DE": "7"
+                    }
+                },
+                {
+                    "value": "8",
+                    "label": {
+                        "en_US": "8",
+                        "de_DE": "8"
+                    }
+                },
+                {
+                    "value": "9",
+                    "label": {
+                        "en_US": "9",
+                        "de_DE": "9"
+                    }
+                },
+                {
+                    "value": "10",
+                    "label": {
+                        "en_US": "10",
+                        "de_DE": "10"
+                    }
+                }
+            ],
+            "predefinedValue": {
+                "en_US": [
+                    "0"
+                ],
+                "de_DE": [
+                    "0"
+                ]
+            },
+            "style": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "en_US": "",
+                "de_DE": "Extrapunkte: Dieses Angebot ist zum Zeitpunkt der letzten Änderung dieser Stellungsnahme gefühlt um diese Anzahl Punkte besser als vergleichbare Angebote. Z.B.: Es handelt sich um einen Kleinbetrieb der nach bewährten Methoden produziert."
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Traditional",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "radio"
+        },
+        {
+            "label": {
+                "en_US": "Organic",
+                "de_DE": "Biologisch"
+            },
+            "options": [
+                {
+                    "value": "0",
+                    "label": {
+                        "en_US": "0",
+                        "de_DE": "0"
+                    }
+                },
+                {
+                    "value": "1",
+                    "label": {
+                        "en_US": "1",
+                        "de_DE": "1"
+                    }
+                },
+                {
+                    "value": "2",
+                    "label": {
+                        "en_US": "2",
+                        "de_DE": "2"
+                    }
+                },
+                {
+                    "value": "3",
+                    "label": {
+                        "en_US": "3",
+                        "de_DE": "3"
+                    }
+                },
+                {
+                    "value": "4",
+                    "label": {
+                        "en_US": "4",
+                        "de_DE": "4"
+                    }
+                },
+                {
+                    "value": "5",
+                    "label": {
+                        "en_US": "5",
+                        "de_DE": "5"
+                    }
+                },
+                {
+                    "value": "6",
+                    "label": {
+                        "en_US": "6",
+                        "de_DE": "6"
+                    }
+                },
+                {
+                    "value": "7",
+                    "label": {
+                        "en_US": "7",
+                        "de_DE": "7"
+                    }
+                },
+                {
+                    "value": "8",
+                    "label": {
+                        "en_US": "8",
+                        "de_DE": "8"
+                    }
+                },
+                {
+                    "value": "9",
+                    "label": {
+                        "en_US": "9",
+                        "de_DE": "9"
+                    }
+                },
+                {
+                    "value": "10",
+                    "label": {
+                        "en_US": "10",
+                        "de_DE": "10"
+                    }
+                }
+            ],
+            "predefinedValue": {
+                "en_US": [
+                    "0"
+                ],
+                "de_DE": [
+                    "0"
+                ]
+            },
+            "style": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "en_US": "",
+                "de_DE": "Extrapunkte: Dieses Angebot ist zum Zeitpunkt der letzten Änderung dieser Stellungsnahme gefühlt um diese Anzahl Punkte besser als vergleichbare Angebote. Z.B.: Es wird komplett auf Chemie, Gentechnik u.ä. verzichtet."
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Organic",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "radio"
+        },
+        {
+            "label": {
+                "en_US": "Fair Trade",
+                "de_DE": "Fair Trade"
+            },
+            "options": [
+                {
+                    "value": "0",
+                    "label": {
+                        "en_US": "0",
+                        "de_DE": "0"
+                    }
+                },
+                {
+                    "value": "1",
+                    "label": {
+                        "en_US": "1",
+                        "de_DE": "1"
+                    }
+                },
+                {
+                    "value": "2",
+                    "label": {
+                        "en_US": "2",
+                        "de_DE": "2"
+                    }
+                },
+                {
+                    "value": "3",
+                    "label": {
+                        "en_US": "3",
+                        "de_DE": "3"
+                    }
+                },
+                {
+                    "value": "4",
+                    "label": {
+                        "en_US": "4",
+                        "de_DE": "4"
+                    }
+                },
+                {
+                    "value": "5",
+                    "label": {
+                        "en_US": "5",
+                        "de_DE": "5"
+                    }
+                },
+                {
+                    "value": "6",
+                    "label": {
+                        "en_US": "6",
+                        "de_DE": "6"
+                    }
+                },
+                {
+                    "value": "7",
+                    "label": {
+                        "en_US": "7",
+                        "de_DE": "7"
+                    }
+                },
+                {
+                    "value": "8",
+                    "label": {
+                        "en_US": "8",
+                        "de_DE": "8"
+                    }
+                },
+                {
+                    "value": "9",
+                    "label": {
+                        "en_US": "9",
+                        "de_DE": "9"
+                    }
+                },
+                {
+                    "value": "10",
+                    "label": {
+                        "en_US": "10",
+                        "de_DE": "10"
+                    }
+                }
+            ],
+            "predefinedValue": {
+                "en_US": [
+                    "0"
+                ],
+                "de_DE": [
+                    "0"
+                ]
+            },
+            "style": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "en_US": "",
+                "de_DE": "Extrapunkte: Dieses Angebot ist zum Zeitpunkt der letzten Änderung dieser Stellungsnahme gefühlt um diese Anzahl Punkte besser als vergleichbare Angebote. Z.B.: Alle, an der Produktion beteiligten, werden gerecht entschädigt."
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Fair",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "radio"
+        },
+        {
+            "label": {
+                "en_US": "Healthy",
+                "de_DE": "Gesund"
+            },
+            "options": [
+                {
+                    "value": "0",
+                    "label": {
+                        "en_US": "0",
+                        "de_DE": "0"
+                    }
+                },
+                {
+                    "value": "1",
+                    "label": {
+                        "en_US": "1",
+                        "de_DE": "1"
+                    }
+                },
+                {
+                    "value": "2",
+                    "label": {
+                        "en_US": "2",
+                        "de_DE": "2"
+                    }
+                },
+                {
+                    "value": "3",
+                    "label": {
+                        "en_US": "3",
+                        "de_DE": "3"
+                    }
+                },
+                {
+                    "value": "4",
+                    "label": {
+                        "en_US": "4",
+                        "de_DE": "4"
+                    }
+                },
+                {
+                    "value": "5",
+                    "label": {
+                        "en_US": "5",
+                        "de_DE": "5"
+                    }
+                },
+                {
+                    "value": "6",
+                    "label": {
+                        "en_US": "6",
+                        "de_DE": "6"
+                    }
+                },
+                {
+                    "value": "7",
+                    "label": {
+                        "en_US": "7",
+                        "de_DE": "7"
+                    }
+                },
+                {
+                    "value": "8",
+                    "label": {
+                        "en_US": "8",
+                        "de_DE": "8"
+                    }
+                },
+                {
+                    "value": "9",
+                    "label": {
+                        "en_US": "9",
+                        "de_DE": "9"
+                    }
+                },
+                {
+                    "value": "10",
+                    "label": {
+                        "en_US": "10",
+                        "de_DE": "10"
+                    }
+                }
+            ],
+            "predefinedValue": {
+                "en_US": [
+                    "0"
+                ],
+                "de_DE": [
+                    "0"
+                ]
+            },
+            "style": {
+                "en_US": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "en_US": "",
+                "de_DE": "Extrapunkte: Dieses Angebot ist zum Zeitpunkt der letzten Änderung dieser Stellungsnahme gefühlt um diese Anzahl Punkte besser als vergleichbare Angebote. Z.B.: In diesem Produkt sind keine gesundheitsschädlichen Inhaltsstoffe nachgewiesen. Wenn in Massen konsumiert, trägt dieses Produkt dazu bei, den täglichen Bedarf an Vitaminen und Mineralstoffen zu decken."
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Healthy",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "radio"
+        }
+    ]
+}
